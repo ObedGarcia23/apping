@@ -65,7 +65,7 @@ body{
 
 .Formulario>.Test3> img{
   max-width: 100%;
-  width: 20em;
+  width: auto;
   height: 14em;
   margin-top: 0px;
 
