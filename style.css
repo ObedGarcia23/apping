@@ -1,0 +1,84 @@
+* {
+    margin: 0PX AUTO ;
+    box-sizing: content-box;
+}
+
+body{
+    background-color: white;
+}
+
+.Formulario{
+    margin-top: 2em;
+    width: 50%;
+    height: 100%;
+    background-color: #124C8B;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px #000;
+
+}
+
+.Encabezado{
+   
+    display: flex; 
+    flex-direction: column;   
+}
+
+.Formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Formulario>.Test1> img{
+  max-width: 100%;
+  width: 50em;
+  height: 10em;
+}
+
+.Formulario>.Test2{
+  display: block;
+}
+
+.Formulario>.Test2 > img{
+  width: 50em;
+  height: 10em;
+}
+
+input[type=text], select {
+    
+    width: 100%;
+    padding: 12px  20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 94%;
+    background-color: #124C8B;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+
