@@ -9,7 +9,7 @@ body{
 
 .header{
     width: 100%;
-    height: 0.5em;
+    height: 2em;
     background-color: #124C8B;
     padding: 20px;
     box-shadow: 0px 0px 10px #000;
@@ -37,27 +37,7 @@ body{
     
 }
 
-.carousel-inner{
-    width:80%;
-    max-height:100%;
-}
 
-@media only screen and (max-width: 600px) {
-    .carousel-inner{
-        width: 80%;
-    }
-    .carousel-inner .carousel-item img{
-        width: 100%;    
-        height: auto;
-    }
-}
 
-.principal{
-    padding: 0% 10% 0% 10%;
-    margin-top: 0;
-    height: auto;
-    background-color: #C6CCE4;
-    
-}
- 
+
 
