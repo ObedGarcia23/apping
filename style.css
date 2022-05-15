@@ -10,7 +10,7 @@ body{
 .Formulario{
     margin-top: 3em;
     width: 80%;
-    height: 85vh;
+    height: 80vh;
     background-color: #124C8B;
     border-radius: 15px;
     padding: 20px;
@@ -52,7 +52,7 @@ body{
     margin-top: 2em;
     color: white;
     font-size: 1.5em;
-    
+
 }
 
 form > label {
