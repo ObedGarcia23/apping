@@ -54,9 +54,21 @@ a{
     
 }
 
+.header_center{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center
+
+}
+
+.header_center{
+    width: 10%;
+}
 .principal{
    
  width: auto;
+ padding: 0px 20px;
 
 }
 
@@ -156,3 +168,4 @@ a{
 
 
 
+}
